@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icon/web-designer-depot.png">
+    <link rel="stylesheet" href="css/cadastro_todo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Sistema de Cadastro</title>
+</head>
+<body> 
+    <div id="system">
+        <h2>Sign Up</h2> 
+        <form name="form" id="cadastro_todo" action="login.html">
+            <div class="linha">
+                <p>Primeiro Nome:</p> 
+                <input class="cadastro_input" type="text" name="FirstName" />
+            </div>
+            
+            <div class="linha">
+                <p> Sobrenome: </p> 
+                <input class="cadastro_input" type="text" name="LastName">
+            </div>
+            
+            <div class="linha">
+                <p> Email:</p> 
+                <input  class="cadastro_input" type="text"  name="Email" >
+            </div>
+            <div class="linha">
+                <p>Senha:  </p> 
+                <input  class="cadastro_input" type="password" name="Password">
+            </div>
+            <div class="linha">
+                <p>Confirme a Senha:</p> <input  class="cadastro_input" type="password" name= "Cpassword">
+            </div>
+            <div class="linha">
+                <p><input type="submit" value="Confirmar" class="botao_cadastro"></p>
+            </div>
+        </form>
+        <ul id="mensagem_erro" ></ul>
+    </div>
+    
+    
+    <script src="js/utils.js"></script>
+    <script src="js/register/validation.js"></script> 
+    <script src="js/register/register.js"></script>
+    
+</body>
+</html>

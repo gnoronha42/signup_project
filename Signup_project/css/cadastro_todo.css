@@ -1,0 +1,31 @@
+
+#system{
+    
+    text-align: center;
+}
+
+
+.cadastro_input{
+    
+    height: 40px;
+    min-width: 300px;
+    max-width: 640px;
+    /*estilo  do input*/
+    text-align: center;
+    background: #cccccc; 
+    border:1px solid #b92e34;
+    border-radius:25px 25px 25px 25px;
+    margin: 9px;
+}
+
+/*estilo do botao*/
+.botao_cadastro{
+    min-width: 300px;
+    max-width: 640px;
+    border-radius:25px 25px 25px ;
+    border-color: rgb(11, 209, 173) ;
+    color: rgba(18, 216, 146, 0.727);
+    height: 30px;
+}
+
+

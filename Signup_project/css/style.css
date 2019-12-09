@@ -1,0 +1,36 @@
+body{
+ background-color: #e2ec9ee1;
+}
+
+
+h2{
+
+    color: black;
+    background-color: rgb(28, 152, 230);
+    display: block;
+    text-align: center;
+}
+
+p {
+   text-align: center;
+   color: grey;  
+}
+
+li {
+    color:  red;
+    list-style: none;
+}
+
+img{
+    width: 780px;
+    position: relative;
+    right: -445px;
+    bottom: -150px;
+
+}
+
+
+.logo{
+ width: 47.99px;
+ 
+}
